@@ -64,7 +64,7 @@ if st.button(label='Show graph'):
 
 st.subheader('Route Map Visualization')
 number = st.number_input(
-    "Insert value (row index)", min_value=0, max_value=len(df), value=1, step=1, placeholder='insert number .. (min: 1, max: 314)')
+    "Insert value (row index)", min_value=0, max_value=len(df), value=5, step=1, placeholder='insert number .. (min: 1, max: 314)')
 
 location = 'New York City, USA'
 origin = df_pickup.iloc[number,-1]
